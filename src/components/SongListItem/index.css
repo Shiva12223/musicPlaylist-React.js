@@ -1,0 +1,49 @@
+.song-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.song-img {
+  height: 130px;
+  width: 200px;
+}
+
+.song-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.song-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.genre-type {
+  font-weight: bold;
+  color: #3b82f6;
+  font-size: 20px;
+}
+.song-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.song-duration {
+  color: #ffffff;
+  font-size: 20px;
+}
+.delete-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
